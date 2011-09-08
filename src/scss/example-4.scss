@@ -1,0 +1,23 @@
+// #4 : Mixins
+@mixin rounded-top($radius: 10px) {
+  $side: top;
+  -moz-border-radius: {
+    #{$side}left: $radius;
+    #{$side}right: $radius;
+  }
+  -webkit-border: {
+    #{$side}: {
+      left-radius: $radius;
+      right-radius: $radius;
+    }
+  }
+  border: {
+    #{$side}: {
+      left-radius: $radius;
+      right-radius: $radius;
+    }
+  }
+}
+
+.section-hd { @include rounded-top; }
+.tab { @include rounded-top(4px); }

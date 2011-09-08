@@ -1,0 +1,6 @@
+// #2 : Nesting (selectors)
+.post {
+  code, pre, .source {
+    font-family: "Inconsolata", Courier, monospace;
+  }
+}

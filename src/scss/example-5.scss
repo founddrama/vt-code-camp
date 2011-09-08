@@ -1,0 +1,17 @@
+// #5 : Selector Inheritance
+
+.blue-box {
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  background: #00f;
+  
+  &.wide {
+    width: 200px;
+  }
+}
+
+.bordered-blue-box {
+  @extend .blue-box;
+  border: 1px solid #ccc;
+}

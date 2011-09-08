@@ -1,0 +1,13 @@
+// #6 : SassScript
+
+// looping with conditional logic
+@for $i from 1 through 10 {
+  $flickr_pink: #ff1c92;
+  #flickr_badge_image#{$i} {
+    @if $i % 2 == 0 {
+      color: $flickr_pink;
+    } @else {
+      color: desaturate($flickr_pink, 15%);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+// #1 : Variables
+// Sass to the rescue
+
+$highlight: #ff0000;
+
+h1#masthead {
+  color: $highlight;
+}
+.post-hd {
+  color: $highlight;
+}
+a.outbound-link {
+  color: $highlight;
+}
+.sidebar p {
+  color: $highlight;
+}

@@ -1,0 +1,16 @@
+// #7 : @import done right
+
+/**
+ * SCSS @include directive
+ */
+
+// compiles '_reset.scss'
+// partial into final CSS
+@import "reset";
+
+// compiles 'other.scss' into
+// final CSS
+@import "other.scss";
+
+// honors 'the old way'
+@import "legacy.css";
