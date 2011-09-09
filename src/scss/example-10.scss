@@ -1,1 +1,11 @@
 // #10 : Validation
+.my-broken-class {
+  // missing colon = Syntax error
+  background-color #dedede;
+
+  // but a missing semi-colon is fixed for you during compilation:
+  color: #222
+
+  // but you can't mix-n-match units...
+  font-size: 12px + 1em;
+}

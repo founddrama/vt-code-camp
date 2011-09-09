@@ -1,0 +1,15 @@
+/**
+ * Lame example "legacy" file.
+ */
+
+.legacy-item {
+  margin: 0;
+  padding: 0;
+  border: 1px dashed #222;
+}
+
+#legacy-logo {
+  height: 40px;
+  width: 320px;
+  background: transparent url(logo.png) no-repeat scroll center center;
+}

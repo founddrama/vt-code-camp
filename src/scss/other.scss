@@ -1,0 +1,5 @@
+// an include for example-7.scss
+
+@for $i from 1 through 6 {
+  h#{$i} { font-size: #{7.25 - $i}em; }
+}

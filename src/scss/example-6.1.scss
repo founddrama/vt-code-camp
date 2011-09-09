@@ -8,6 +8,6 @@ article {
   line-height: $base_line_height;
 
   // simple math
-  h1 { font-size: $base_font_size * ($base_line_height + 1em); }
+  h1 { font-size: $base_font_size + ($base_line_height * 2); }
   h2 { font-size: $base_font_size + 4px; }
 }

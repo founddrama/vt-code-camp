@@ -1,14 +1,14 @@
-// #1 : Variables
+// #1 : Variables 
 $theme_accent: #771100;
 $theme_bg: #222222;
  
 #container {
   h1, h2, h3 { color: $theme_accent; }
   .post {
+    $accent_border: 1px $theme_accent;
+    $dark_border: 1px $theme_bg;
+    
     border: {
-      $accent_border: 1px $theme_accent;
-      $dark_border: 1px $theme_bg;
-
       top: $accent_border;
       left: $accent_border;
       bottom: $dark_border;

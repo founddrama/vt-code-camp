@@ -5,17 +5,13 @@
     #{$side}left: $radius;
     #{$side}right: $radius;
   }
-  -webkit-border: {
-    #{$side}: {
-      left-radius: $radius;
-      right-radius: $radius;
-    }
+  -webkit-border-#{$side}: {
+    left-radius: $radius;
+    right-radius: $radius;
   }
-  border: {
-    #{$side}: {
-      left-radius: $radius;
-      right-radius: $radius;
-    }
+  border-#{$side}: {
+    left-radius: $radius;
+    right-radius: $radius;
   }
 }
 
