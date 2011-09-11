@@ -11,6 +11,8 @@ the 2011 [VT Code Camp](http://vtcodecamp.org/).
 > from Ruby) This talk will cover an overview of what Sass is, how to get it,
 > run it, and use it, and show some examples of its magic.
 
+The slide deck is available on SlideShare: http://www.slideshare.net/founddrama/wrangling-the-css-beast-with-sass
+
 ### Resources
 
 * Sass home page: http://sass-lang.com/
